@@ -1,0 +1,39 @@
+/* pages/video/video.wxss */
+
+.video-top {
+  height: 450rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#myVideo {
+  height: 450rpx;
+  width: 100%;
+}
+
+.list-view {
+  margin-top: 20rpx;
+  height: 65vh;
+}
+
+.text-view {
+  width: 95%;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-name {
+  font-size: 30rpx;
+  color: #36282b;
+}
+
+.video-author {
+  font-size: 22rpx;
+  color: #7a7374;
+}

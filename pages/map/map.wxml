@@ -1,0 +1,14 @@
+<!--pages/map/map.wxml-->
+
+<map id='map' longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" scale="{{scale}}" circles='{{circles}}'>
+  <cover-image class='f5 image' src='../image/refresh.png'animation="{{animation}}" bindtap='Refresh'></cover-image>
+  <!-- <view class="scale">
+    <image class='image' src='../image/arrow.png' bindtap='Magnify'></image>
+    <image class='image' src='../image/arrow.png' bindtap='Reduce'></image>
+  </view> -->
+  <view class='info'>
+    <block wx:for-items="{{Positions}}" wx:key="{{item.id}}">
+      <view data-la="{{item.latitude}}" data-lo="{{item.longitude}}">"{{item.infomation}}"</view>
+    </block>
+  </view>
+</map>

@@ -1,0 +1,19 @@
+<!--pages/video/video.wxml-->
+<view class="video-top">
+  <video id="myVideo" src="{{src}}" controls></video>
+
+</view>
+<scroll-view class="list-view" scroll-y="true ">
+
+  <view style="flex-direction:column;">
+
+    <block wx:for="{{video_list}}" wx:key="key" wx:for-index="idx" wx:for-item="mitem">
+      <view class="text-view " bindtap="select_video" data-index="{{idx}}" data-name="{{mitem.name}}" data-info="{{mitem.info}}" data-src="{{mitem.src}}">
+        <text class="video-name">{{idx+1}}.  {{mitem.name}}</text>
+        <text class="video-author">{{mitem.info}}</text>
+      </view>
+      <view wx:if="{{idx!=video_list.length-1}}" style="width:100%;height:1px;background:#f3f3f3; "></view>
+    </block>
+
+  </view>
+</scroll-view>

@@ -1,0 +1,26 @@
+/* pages/main/main.wxss */
+
+#swiper-image {
+  margin-top: 25rpx;
+  height: 410rpx;
+  width: 100%;
+}
+
+.swiper-item {
+  width: 100%;
+  height: 410rpx;
+  display: flex;
+  justify-content: center;
+}
+
+/* #swiper-item {
+  width: 100%;
+  height: 23vh;
+  background-color: #e3e8ee;
+} */
+
+.image-item {
+  width: 700rpx;
+  height: 393rpx;
+  border-radius: 10rpx;
+}

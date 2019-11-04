@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/music/music",
+    "pages/main/main",
+    "pages/map/map",
+    "pages/video/video"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#28282a",
+    "navigationBarTitleText": "Orange小程序",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#e6eef5"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "pages/image/icon/smiley_gray.png",
+        "selectedIconPath": "pages/image/icon/smiley_green.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "pages/image/icon/map_gray.png",
+        "selectedIconPath": "pages/image/icon/map_green.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "iconPath": "pages/image/icon/music_gray.png",
+        "selectedIconPath": "pages/image/icon/music_green.png",
+        "text": "音乐"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "pages/image/icon/film_gray.png",
+        "selectedIconPath": "pages/image/icon/film_green.png",
+        "text": "视频"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 5000
+  },
+  "sitemapLocation": "sitemap96.json"
+}
