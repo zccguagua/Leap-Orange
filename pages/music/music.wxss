@@ -45,8 +45,6 @@
   margin-right: 28rpx;
 }
 
-#music-name {
-}
 
 #author-line {
   display: flex;

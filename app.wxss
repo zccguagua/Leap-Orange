@@ -1,5 +1,5 @@
 /* 引入wxui */
-@import "dist/style/weui.wxss";
+/* @import "dist/style/weui.wxss"; */
 
 /**app.wxss**/
 
