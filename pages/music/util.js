@@ -5,6 +5,46 @@ module.exports = {
       src: 'http://image.zcc.ac.cn/my_music_%E6%97%A5%E5%85%89%E5%80%BE%E5%9F%8E.mp3',
       cover: '../image/another/music_bg_11.png'
     },
+
+    {
+      name: 'Monsters',
+      author: 'Katie Sky',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/Monsters.m4a',
+      cover: '../image/another/music_bg_10.png'
+    },
+    {
+      name: '逝去的歌',
+      author: '旅行团',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/shiqudege.mp3',
+      cover: '../image/another/music_bg_11.png'
+    },
+    {
+      name: '请先说你好',
+      author: '贺一航',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/qingxianshuonihao.mp3',
+      cover: '../image/another/music_bg_12.png'
+    },
+
+    {
+      name: 'Ref-rain',
+      author: 'Aimer',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/Ref-rain%20.mp3',
+      cover: '../image/another/music_bg_13.png'
+    },
+
+    {
+      name: 'Super Love',
+      author: ' ',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/Super%20Love.mp3',
+      cover: '../image/another/music_bg_14.png'
+    },
+
+    {
+      name: '嚣张',
+      author: 'en',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/xiaozhang.m4a',
+      cover: '../image/another/music_bg_15.png'
+    },
     {
       name: '安河桥',
       author: '宋东野',

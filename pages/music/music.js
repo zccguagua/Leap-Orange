@@ -22,7 +22,7 @@ Page({
     music_list: util.music_list,
     isSilence: false, //是否静音
     singleCycle: false, //是否单曲循环
-    spread:true
+    spread: true
   },
 
   /**
@@ -177,9 +177,11 @@ Page({
 
   },
   playMusic: function() {
+    console.log("playMusic");
     my_audio.play();
   },
   pauseMusic: function() {
+    console.log("pauseMusic");
     my_audio.pause();
   },
   /**秒==> '00:00' */
@@ -296,7 +298,8 @@ Page({
         "singleCycle": true
       });
     }
-  }, spreadList:function(){
+  },
+  spreadList: function() {
     if (this.data.spread == true) {
       this.setData({
         "spread": false
