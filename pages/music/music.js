@@ -177,11 +177,9 @@ Page({
 
   },
   playMusic: function() {
-    console.log("playMusic");
     my_audio.play();
   },
   pauseMusic: function() {
-    console.log("pauseMusic");
     my_audio.pause();
   },
   /**秒==> '00:00' */

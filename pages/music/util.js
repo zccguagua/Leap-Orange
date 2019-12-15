@@ -5,7 +5,37 @@ module.exports = {
       src: 'http://image.zcc.ac.cn/my_music_%E6%97%A5%E5%85%89%E5%80%BE%E5%9F%8E.mp3',
       cover: '../image/another/music_bg_11.png'
     },
-
+    {
+      name: '侧脸',
+      author: '于果',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/celian.mp3',
+      cover: '../image/another/music_bg_1.png'
+    }, {
+      name: '世间美好与你环环相扣',
+      author: '柏松',
+      src:'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/shijianmeihaoyunihuanhuanxiangkou.mp3',
+      cover: '../image/another/music_bg_2.png'
+    }, {
+      name: '情深深雨蒙蒙',
+      author: '杨胖雨',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/qingshenshenyumengmeng.mp3',
+      cover: '../image/another/music_bg_3.png'
+    }, {
+      name: '心安理得',
+      author: '王天戈',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/xinanlide.mp3',
+      cover: '../image/another/music_bg_4.png'
+    }, {
+      name: '撒野',
+      author: '凯瑟猫',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/saye.mp3',
+      cover: '../image/another/music_bg_5.png'
+    }, {
+      name: '去年夏天',
+      author: '王大毛',
+      src: 'https://zccguagua.oss-cn-hangzhou.aliyuncs.com/music/music/qunianxiatian.mp3',
+      cover: '../image/another/music_bg_6.png'
+    },
     {
       name: 'Monsters',
       author: 'Katie Sky',
